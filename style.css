@@ -1,0 +1,96 @@
+body {
+    background-color: #f1e2c3; /* Light blue background */
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #f4cc68; 
+    color: white;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow effect */
+}
+
+/* Introduction paragraph styles */
+#introduction p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 1em 2em;
+}
+
+/* Key points section styles */
+#key-points {
+    margin: 2em;
+   
+}
+
+#key-points h2 {
+    font-size: 2em;
+    color: #e5be5c; 
+    text-align: center;
+}
+
+#key-points ul {
+    list-style-type: square; /* Custom bullet points */
+    padding-left: 2em;
+    
+}
+
+#key-points li {
+    margin: 0.5em 0;
+    
+}
+
+/* Navigation menu styles */
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    background-color:#e5be5c; 
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #e5be5c; 
+}
+
+/* Gallery section styles */
+#gallery {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 1em 0;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #e5be5c;
+    color: white;
+}
